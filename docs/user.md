@@ -48,7 +48,7 @@ Fields:
 
 Fields:
 
-**dnt**: Do not track，是否跟踪用户行为。
+**dnt**: Do not track，是否跟踪用户行为。
 
 ### bytesUploaded
 
@@ -63,8 +63,8 @@ Fields:
 
 Fields:
 
-* **lastHourStarted**: 最近一『天』的开始时间。
-* **lastHourBytes**: 最近一天内用户上传文件的字节数。
+* **lastHourStarted**: 最近一小时的开始时间。
+* **lastHourBytes**: 最近一小时内用户上传文件的字节数。
 * 其它类似
 
 ### bytesDownloaded
