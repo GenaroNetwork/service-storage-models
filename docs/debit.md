@@ -18,12 +18,16 @@
 
 Fields:
 
-* **payedBy**: enum
+* **amount**:
+* **user**:
+* **created**:
+* **payed**: 付款日期
+* **payedBy**: enum; 付款GNX来源
   * freeGNX
   * wallet
   * freeGNXAndWallet
   * none
-* **payStatus**: enum
+* **payStatus**: enum; 付款状态
   * success
   * fail
   * init

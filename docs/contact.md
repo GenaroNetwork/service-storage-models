@@ -20,6 +20,20 @@
 Indexes:
 
 * **lastSeen**: 1
-* **responseTime**: 1, spaceAvailable: 1, _id: -1
+* **responseTime**: 1, **spaceAvailable**: 1, **_id**: -1
 * **reputation**: 1
 * **address**: 1
+
+Fields:
+
+* **_id**:
+* **address**:
+* **port**:
+* **lastSeen**: 最后一次发现联系人的时间
+* **reputation**:
+* **lastTimeout**: 最后一次发生timeout的时间
+* **timeoutRate**: timeout发生率（详细计算方式见代码）
+* **responseTime**:
+* **lastContractSent**:
+* **spaceAvailable**: 是否有可用空间
+* **protocol**:

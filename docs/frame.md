@@ -14,3 +14,12 @@
 Indexes:
 
 * **user**: 1
+
+Fields:
+
+* **created**: 创建日期
+* **user**: 文件上传人
+* **locked**:
+* **size**:
+* **storageSize**:
+* **shards**: 分片
