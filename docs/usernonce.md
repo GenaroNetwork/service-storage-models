@@ -12,4 +12,4 @@
 
 Indexes:
 
-* user: 1, nonce: 1; unique: true
+* **user**: 1, **nonce**: 1; unique: true

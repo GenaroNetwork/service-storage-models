@@ -13,6 +13,6 @@
 
 Indexes:
 
-* bucket: 1
-* bucketEntry: 1
-* user: 1
+* **bucket**: 1
+* **bucketEntry**: 1
+* **user**: 1

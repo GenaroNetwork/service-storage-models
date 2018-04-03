@@ -19,7 +19,7 @@ Fields:
 
 * **created**: 创建日期
 * **user**: 文件上传人
-* **locked**:
+* **locked**: 如果locked则无法通过Frame创建BucketEntry
 * **size**:
 * **storageSize**:
 * **shards**: 分片

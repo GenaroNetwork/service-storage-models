@@ -24,6 +24,11 @@ Indexes:
 | contract | Object |          |         |          |
 | _id      | false  |          |         |          |
 
+Fields:
+
+* **nodeID**: 节点的ID
+* **contract**: renter 和 farmer 之前的存储协议
+
 ## trees
 
 | field  | type   | required | default | validate |
@@ -31,6 +36,10 @@ Indexes:
 | nodeID | String |          |         |          |
 | tree   | Array  |          |         |          |
 | _id    | false  |          |         |          |
+
+Fields:
+
+* **nodeID**: 节点的ID
 
 ## challenges
 
@@ -40,6 +49,10 @@ Indexes:
 | challenge | Object |          |         |          |
 | _id       | false  |          |         |          |
 
+Fields:
+
+* **nodeID**: 节点的ID
+
 ## meta
 
 | field  | type   | required | default | validate |
@@ -47,3 +60,7 @@ Indexes:
 | nodeID | String |          |         |          |
 | meta   | Object |          |         |          |
 | _id    | false  |          |         |          |
+
+Fields:
+
+* **nodeID**: 节点的ID
