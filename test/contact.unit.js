@@ -5,7 +5,7 @@ const async = require('async');
 const expect = require('chai').expect;
 const errors = require('storj-service-error-types');
 const mongoose = require('mongoose');
-const storj = require('storj-lib');
+const storj = require('genaro-lib');
 
 /*jshint maxstatements: 100 */
 
