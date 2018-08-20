@@ -4,7 +4,7 @@
 
 const expect = require('chai').expect;
 const mongoose = require('mongoose');
-const storj = require('storj-lib');
+const storj = require('genaro-lib');
 
 require('mongoose-types').loadTypes(mongoose);
 

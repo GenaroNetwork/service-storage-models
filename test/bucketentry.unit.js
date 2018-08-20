@@ -1,7 +1,7 @@
 'use strict';
 
 const crypto = require('crypto');
-const storj = require('storj-lib');
+const storj = require('genaro-lib');
 const expect = require('chai').expect;
 const mongoose = require('mongoose');
 const errors = require('storj-service-error-types');
